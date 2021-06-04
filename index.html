@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ITC Precourse</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald" rel="stylesheet">
+    <!--google fonts-->
+    <link href="webfonts/all.css" rel="stylesheet">
+    <!--font awsome-->
+    <link href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section>
+        <div class="aboutMe pageContantIandC">
+            <div class="page-wrapper">
+                <div class="navbar">
+                    <a href="index.html" class="nav-item active">Home</a>
+                    <a href="about.html" class="nav-item">About</a>
+                    <a href="contact.html" class="nav-item">Contact</a>
+                </div>
+                <!--navbar end-->
+
+                <div class="card" onclick="modalOpenFunction()">
+                    <img id="profile-image" src="img/code.png" alt="Israel Tech Challenge" class="profile-image" />
+                    <div id="myNameITC">
+                        <h1 id="my-name">
+                            Oz Cohen Abramson
+                        </h1>
+                        <h4 id="itcExp">
+                            ITC Fullstack Development
+                        </h4>
+                    </div>
+                </div>
+                <!--card end-->
+
+                <div id="modal">
+
+                    <div class="modal-content">
+                        <span class="close"><img src="img/x-close.png" alt=""></span>
+                        <div class="video-content">
+                            <h2>If you like dogs I recommend watching this video:</h2>
+                        </div>
+                        <div class="lily">
+                            <iframe width="750" height="400" src="https://www.youtube.com/embed/sEF204-loT0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+                        <!--video end-->
+                        <p>This is my dog and her name is Lily</p>
+                    </div>
+
+                </div>
+
+                <div class="clickable">
+                    <ul>
+                        <li class="linkImg"><a href="https://www.linkedin.com/in/ozzy-cohen-232304209/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li class="linkImg"><a href="https://stackoverflow.com/users/15399617/ozzy-cohen?tab=profile" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
+                        <li class="linkImg"><a href="https://github.com/Ozzy-Cohen-Abramson" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                    </ul>
+                </div>
+                <!--end of clickable-->
+            </div>
+            <!--page wrapper-->
+        </div>
+        <!--page contant-->
+    </section>
+    <footer id="footerIndex">
+        <div class="links">
+            <ul class="footerLinks footerCont">
+                <li><a href="index.html" class="footerLink">Home</a></li>
+                <li><a href="about.html" class="footerLink">About</a></li>
+                <li><a href="contact.html" class="footerLink">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="itc footerCont">
+            <h4>&#169; Israel Tech Challenge</h4>
+        </div>
+
+        <div class="footerExp footerCont">
+            <h4 id="footerTitle">This page was built using:</h4>
+            <p id="footerExp"></p>
+        </div>
+    </footer>
+
+    <script src="js\home.js"></script>
+    <script src="js\portfolio.js"></script>
+
+</body>
+
+</html>

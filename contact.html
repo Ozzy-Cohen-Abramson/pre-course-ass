@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ITC Precourse</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section>
+      <div class="page-wrapper">
+        <div class="navbar">
+          <a href="index.html" class="nav-item">Home</a>
+          <a href="about.html" class="nav-item">About</a>
+          <a href="contact.html" class="nav-item active">Contact</a>
+        </div> <!--navbar end-->  
+        <div class="mainTitle">
+            <h1>Contact</h1>
+        </div>  
+        <div class="pageContantIandC">
+          <form class="contactForm"> 
+              <ul class="contactUl">
+                <li>
+                  <label for="fname">First Name: <span>*</span></label> <br>
+                  <input class="input" class="input" type="name" id="fname" name="firstname" placeholder="Name" onkeyup="textDis()" required>
+                </li> 
+            
+                <li> 
+                  <label for="lname">Last Name: </label> <br>
+                  <input class="input" type="text" id="lname" name="lastname" placeholder="Last name">
+                </li>
+
+                <li>
+                  <label for="email">Email: <span>*</span></label> <br>
+                  <input class="input" type="email" id="email" name="email" placeholder="Email address" onkeyup="textDis()" required> <!--try to use pattern, didn't work-->
+                </li>
+
+                <div class="date">
+                  <label for="bDate">Please select your birth date: <span>*</span></label> <br>
+                  <input class="input" type="date" id="bDate" name="date" onkeyup="textDis()" required>
+                </div>
+              
+                <li>
+                  <label for="comment">Comment: <span>*</span></label> <br>
+                  <textarea id="uComment" name="subject" placeholder="Write something..." onkeyup="textDis()" required></textarea>
+                </li>
+                  
+                <input disabled id="submit" type="submit" value="Submit" onclick="consoleFunction()">
+            </ul>
+          </form>
+          
+        </div>   <!--page contant end-->
+      </div>
+    </section>
+
+    <footer>
+      <div class="links">
+        <ul class="footerLinks footerCont">
+          <li><a href="index.html" class="footerLink">Home</a></li>
+          <li><a href="about.html" class="footerLink">About</a></li>
+          <li><a href="contact.html" class="footerLink">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="itc footerCont"><h4>&#169; Israel Tech Challenge</h4></div>
+
+      <div class="footerExp footerCont">
+        <h4>This page was built using:</h4>
+        <p id="footerExp"></p>
+      </div>
+    </footer>
+    <script src="js\contact2.js"></script>
+    <script src="js\portfolio.js"></script>
+  </body>
+</html>

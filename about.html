@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ITC Precourse</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section>
+      <div class="page-wrapper">
+            <div class="navbar">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="about.html" class="nav-item active">About</a>
+            <a href="contact.html" class="nav-item">Contact</a>
+            </div> <!--navbar end--> 
+
+            <div class="mainTitle">
+                <h1>About</h1>
+            </div>  
+              <div class="pageContant">
+                <div class="aboutMe">
+                    <p>
+                        My name is Oz Cohen Abramson.
+                        I got to the world of coding because I felt any other job I had wasn't challenging enough.
+                        Furthermore, I love to learn new things and as a developer this is an essential quality.
+                    </p>
+                    <p>
+                        I did my B.Ed degree in Science (biology , chimestry and phisics) at Herzog college. <br>
+                        My M.A. is in science and jewish law (mainly medicine and ethics). <br>
+                    </p> 
+                    <p>
+                        After I finished my B.Ed degree I started teaching. After 3 years I came to the conclusion
+                        that I'm not fully applying my abilities and started to learn coding by myself. <br>
+                        During my spare time I do music and play guitar in a band.
+                    </p>
+                  <hr>
+               </div> 
+               <div class="maps">
+                  <p>
+                    I was born in 1994 in Hadera. At age 18 I moved to Jerusalem to study and to serve in the military.
+                    At the age of 25 I moved back to Hadera. <br>
+                    In the future I would like to visit Dublin and Los Angeles.
+                  </p>
+                  <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53875.12437213324!2d34.95883617417197!3d32.440707542990715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d124252d125bb%3A0x3abe13857b8fe43d!2z15fXk9eo15Q!5e0!3m2!1siw!2sil!4v1615727178102!5m2!1siw!2sil"  width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="btns">
+                    <button disabled class="btn prev" onclick="prevFunction()">Previous</button>
+                    <button class="btn next" onclick="nextFunction()">Next</button>
+                </div>
+            </div>   <!--page contant end-->
+      </div>
+    </section>
+    <footer>
+      <div class="links">
+        <ul class="footerLinks footerCont">
+          <li><a href="index.html" class="footerLink">Home</a></li>
+          <li><a href="about.html" class="footerLink">About</a></li>
+          <li><a href="contact.html" class="footerLink">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="itc footerCont"><h4>&#169; Israel Tech Challenge</h4></div>
+
+      <div class="footerExp footerCont">
+        <h4>This page was built using:</h4>
+        <p id="footerExp"></p>
+      </div>
+    </footer>
+
+    <script src="js\about.js"></script>
+    <script src="js\portfolio.js"></script>
+  </body>
+</html>
